@@ -2,3 +2,13 @@ img {
     width: 20%;
     margin-left: 0%;
 }
+
+.navbar-links {
+    background-color: #0B1A33;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 15px;
+    color: white;
+    padding: 10px;
+}
