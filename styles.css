@@ -23,7 +23,7 @@ img {
 
 }
 
-.filler-image {
+.filler-image img {
     width: 20%;
     height: auto;
     display: flex;
