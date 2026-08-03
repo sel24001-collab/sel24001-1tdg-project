@@ -5,6 +5,7 @@ img {
     display: block;
     border-radius: 30px;
     object-fit: cover;
+    background-image: url(images/header.jpg.jpg);
 
 }
 
@@ -49,6 +50,7 @@ img {
 .titles {
     display: flex;
     justify-content: center;
+
 }
 
 .logo {
