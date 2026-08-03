@@ -13,7 +13,9 @@ img {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    margin: 15px;
+    margin-right: -7px;
+    margin-left: -7px;
+    margin-top: -7px;
     padding: 10px;  /* Makes the navigation bar thicker */
 
 }
@@ -47,4 +49,9 @@ img {
 .titles {
     display: flex;
     justify-content: center;
+}
+
+.logo {
+    display: flex;
+    align-items: start;
 }
