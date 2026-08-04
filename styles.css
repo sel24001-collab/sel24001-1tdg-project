@@ -60,3 +60,15 @@ img {
     display: flex;
     align-items: start;
 }
+
+.events img {
+    width: 20%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: #f4f1e8;
+}
