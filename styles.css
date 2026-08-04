@@ -6,6 +6,8 @@ img {
     border-radius: 30px;
     object-fit: cover;
     background-image: url(images/header.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
 
 }
 
