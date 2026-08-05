@@ -43,11 +43,11 @@ img {
 }
 
 .home-image {
-    width: 80%;
+    width: 20%;
     height: auto;
     border: 5px solid #CFBA2B;
-    border-radius: 13%;
     max-width: 40%;
+    border-radius: 0% !important;
 
 }
 
@@ -71,10 +71,12 @@ img {
 
 .events img {
     width: 20%;
-    height: auto;
+    height: 300px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    max-width: 40%;
+    border-radius: 0% !important;
 }
 
 body {
