@@ -45,7 +45,6 @@ img {
 .home-image {
     width: 20%;
     height: auto;
-    border: 5px solid #CFBA2B;
     max-width: 40%;
     border-radius: 0% !important;
 
@@ -70,15 +69,35 @@ img {
 }
 
 .events img {
-    width: 20%;
-    height: 300px;
+    width: 15%;
+    height: 400px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     max-width: 40%;
     border-radius: 0% !important;
+    border: 5px solid #CFBA2B;
+
 }
 
 body {
     background-color: #f4f1e8;
+}
+
+.about img {
+    width: 97%;
+    height: 350px;
+    border-radius: 0% !important;
+    border: 5px solid #CFBA2B;
+
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.about-text {
+    width: 40%;
+    font-size: larger;
 }
