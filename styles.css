@@ -58,6 +58,7 @@ img {
 }
 
 .titles {
+    font-size: xx-large;
     display: flex;
     justify-content: center;
 
@@ -99,5 +100,5 @@ body {
 
 .about-text {
     width: 40%;
-    font-size: larger;
+    font-size: x-large;
 }
