@@ -45,8 +45,11 @@ img {
 .home-image {
     width: 20%;
     height: auto;
-    max-width: 40%;
+}
+
+.home-image img {
     border-radius: 0% !important;
+    border: 5px solid #CFBA2B;
 
 }
 
@@ -55,6 +58,7 @@ img {
     display: flex;
     flex-direction: column;
     margin: 5%; 
+    gap: 10%;
 }
 
 .titles {
@@ -69,12 +73,16 @@ img {
     align-items: start;
 }
 
-.events img {
-    width: 15%;
-    height: 400px;
+.events-image {
     display: flex;
     justify-content: center;
     flex-direction: column;
+
+}
+
+.events-image img {
+    width: 15%;
+    height: 400px;
     max-width: 40%;
     border-radius: 0% !important;
     border: 5px solid #CFBA2B;
@@ -101,4 +109,7 @@ body {
 .about-text {
     width: 40%;
     font-size: x-large;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 3%;
 }
