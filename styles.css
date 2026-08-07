@@ -114,3 +114,27 @@ body {
     justify-content: flex-start;
     margin-left: 3%;
 }
+
+.acting-image-one {
+    width: 20%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.acting-image-one img {
+    border-radius: 0% !important;
+    border: 5px solid #CFBA2B;
+}
+
+.acting-image-two {
+    width: 20%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.acting-image-two img {
+    border-radius: 0% !important;
+    border: 5px solid #CFBA2B;
+}
