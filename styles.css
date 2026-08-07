@@ -59,6 +59,7 @@ img {
     flex-direction: column;
     margin: 5%; 
     gap: 10%;
+    font-size: x-large;
 }
 
 .titles {
