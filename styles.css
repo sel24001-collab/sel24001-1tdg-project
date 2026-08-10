@@ -147,3 +147,15 @@ body {
     gap: 10%;
     font-size: x-large;
 }
+
+.acting-image-three {
+    width: 20%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.acting-image-three img {
+    border-radius: 0% !important;
+    border: 5px solid #CFBA2B;
+}
