@@ -155,6 +155,24 @@ body {
     border: 5px solid #CFBA2B;
 }
 
+.acting-content-three {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.acting-text-three {
+    width: 40%;
+    font-size: x-large;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 3%;
+}
+
+.acting-attribution-three {
+    display: flex;
+    justify-content: flex-start;
+}
+
 
 .acting-content-four {
     display: flex;
@@ -172,4 +190,13 @@ body {
 .acting-image-four img {
     border-radius: 0% !important;
     border: 5px solid #CFBA2B;
+}
+
+.acting-text-four {
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+    margin: 5%; 
+    gap: 10%;
+    font-size: x-large;
 }
