@@ -28,6 +28,11 @@ img {
 
 }
 
+.navbar-links a:hover {
+    background-color: #616368;
+
+}
+
 .filler-image {
     width: 20%;
     height: auto;
