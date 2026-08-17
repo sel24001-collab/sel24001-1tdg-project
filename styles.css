@@ -51,6 +51,7 @@ img {
 .home-image {
     width: 20%;
     height: auto;
+    margin-top: 20px;
 }
 
 .home-image img {
@@ -92,6 +93,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 
 }
 
@@ -135,6 +137,7 @@ body {
 .about-content {
     display: flex;
     flex-direction: row-reverse;
+    margin-top: 20px;
 }
 
 .about-text {
