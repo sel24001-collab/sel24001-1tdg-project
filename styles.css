@@ -69,11 +69,19 @@ img {
 }
 
 .titles {
+    position: absolute;
+    top: 145px;
+    left: -40px;
+    right: 5px;
+    bottom: 5px;
     font-size: xx-large;
+    border-radius: 30px;
+    color: white;
     display: flex;
     justify-content: center;
-
+    text-align: center;
 }
+
 
 .logo {
     display: flex;
