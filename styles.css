@@ -1,13 +1,10 @@
 
 img {
-    width: 100%;
-    height: 300px;
+    width: 100%; /* This is used to adjust the width of the images*/
+    height: 300px; /* This is used to adjust the height of my images*/
     display: block;
-    border-radius: 30px;
-    object-fit: cover;
-    background-image: url(images/header.jpg.jpg);
-    background-repeat: no-repeat;
-    background-size: auto;
+    border-radius: 30px; /* Makes the borders of the header image curved */
+    object-fit: cover; /* Makes the header image cover most of the screen */
 
 }
 
@@ -18,10 +15,10 @@ img {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    margin-right: -7px;
-    margin-left: -7px;
-    margin-top: -7px;
-    margin-bottom: 10px;
+    margin-right: -7px; /* Makes the navigation bar not touch the top of the*/
+    margin-left: -7px; /* Makes the navigation bar not touch the left side of the*/
+    margin-top: -7px; /* Makes the navigation bar not touch the right side of the*/
+    margin-bottom: 10px; /* Adds a gap between the bottom of the navigation bar and the header image*/
     padding: -1px;  /* Makes the navigation bar thicker */
     align-items: center;
     color: white;
@@ -31,7 +28,7 @@ img {
 .navbar-links a {
     color: white; /* Makes the navigation bar links white */
     font-size: large;
-    text-decoration: none;
+    text-decoration: none; /* Removes the underline under the navigation bar links */
 
 }
 
@@ -45,7 +42,7 @@ img {
 .home-content {
     display: flex;
     justify-content: flex-start;
-    flex-direction: row;
+    flex-direction: row; /* Makes the home image and home text side by side*/
     
 }
 
@@ -53,12 +50,12 @@ img {
     width: 20%;
     height: auto;
     margin-top: 50px;
-    margin-left: 15px;
+    margin-left: 15px; /* This is used to move the home image of the edge of the screen */
 }
 
 .home-image img {
-    border-radius: 0% !important;
-    border: 5px solid #CFBA2B;
+    border-radius: 0% !important; /* This is used so that the rest of my images don't have a curved border */
+    border: 5px solid #CFBA2B; /* Makes the image have a Gold border colour */
 
 }
 
@@ -67,18 +64,18 @@ img {
     display: flex;
     flex-direction: column;
     margin: 5%; 
-    gap: 10%;
+    gap: 10%; /* For the gap between the home text and home image */
     font-size: x-large;
-    margin-top: 130px;
+    margin-top: 130px; /* This is used to move the home text lower*/
 }
 
 .titles {
-    position: absolute;
-    top: 145px;
-    left: -40px;
-    right: 5px;
-    bottom: 5px;
-    font-size: xx-large;
+    position: absolute; /* This is used to be able to move the page titles anywhere*/
+    top: 145px; /* This is used to center the titles on the header image so its not touching the top */
+    left: -40px; /* This is used to center the titles on the header image so its not touching the left */
+    right: 5px; /* This is used to center the titles on the header image so its not touching the right */
+    bottom: 5px; /* This is used to center the titles on the header image so its not touching the bottom */
+    font-size: xx-large; /* This makes the page titles extra extra large*/
     border-radius: 30px;
     color: white;
     display: flex;
@@ -89,13 +86,13 @@ img {
 
 .logo {
     display: flex;
-    align-items: start;
+    align-items: start; /* This is used to move the logo on my left hand side of the navigation bar*/
 }
 
 .events-image {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; /* This is used to center the images*/
     margin-top: 20px;
 
 }
@@ -113,14 +110,14 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column; /* This is used to make the text display as a column*/
     font-size: x-large;
 }
 
 .events-attribution {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; /* This is used to center the events image attributions*/
     flex-direction: column;
     font-size: medium;
 }
@@ -139,7 +136,7 @@ body {
 
 .about-content {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row-reverse; /* This is used to move the about image to my right and side of the page with the about text on my left hand side of the page*/
     margin-top: 20px;
     margin-right: 15px;
 }
@@ -181,8 +178,8 @@ body {
 }
 
 .acting-attribution-two {
-    margin-left: 80px;
-    margin-top: -70px;
+    margin-left: 80px; /* This is used to move the attribution of the edge of the page*/
+    margin-top: -70px; /* This is used to remove the gap between the acting image and attribution*/
 }
 
 .acting-image-three {
@@ -212,7 +209,7 @@ body {
 }
 
 .acting-attribution-three {
-    margin-left: 1555px;
+    margin-left: 1555px; /* This is used to move this image attribution to my right hand side of the page*/
 }
 
 
@@ -247,4 +244,10 @@ body {
 .acting-attribution-four {
     margin-left: 80px;
     margin-top: -100px;
+}
+
+.acting-introduction-text {
+    font-size: x-large;
+    display: flex;
+    justify-content: center; /* This is used to center my starting acting text*/
 }
