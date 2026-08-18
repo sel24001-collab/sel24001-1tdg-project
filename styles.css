@@ -36,6 +36,7 @@ img {
 }
 
 .navbar-links a:hover {
+    padding: 20px;
     background-color: #616368; /* When you hover over the link on the navigation bar a box will appear around it */
 
 }
@@ -179,6 +180,10 @@ body {
     font-size: x-large;
 }
 
+.acting-attribution-two {
+    margin-left: 80px;
+    margin-top: -70px;
+}
 
 .acting-image-three {
     width: 20%;
@@ -207,7 +212,7 @@ body {
 }
 
 .acting-attribution-three {
-    margin-right: 50px;
+    margin-left: 1555px;
 }
 
 
@@ -237,4 +242,9 @@ body {
     margin: 5%; 
     gap: 10%;
     font-size: x-large;
+}
+
+.acting-attribution-four {
+    margin-left: 80px;
+    margin-top: -100px;
 }
