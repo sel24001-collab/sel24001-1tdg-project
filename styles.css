@@ -161,6 +161,7 @@ body {
     display: flex;
     justify-content: flex-start;
     margin-left: 15px;
+    margin-top: 10px;
 }
 
 .acting-image-two img {
@@ -175,11 +176,12 @@ body {
     margin: 5%; 
     gap: 10%;
     font-size: x-large;
+    margin-top: 60px;
 }
 
 .acting-attribution-two {
     margin-left: 80px; /* This is used to move the attribution of the edge of the page*/
-    margin-top: -70px; /* This is used to remove the gap between the acting image and attribution*/
+    margin-top: -25px; /* This is used to remove the gap between the acting image and attribution*/
 }
 
 .acting-image-three {
@@ -187,7 +189,8 @@ body {
     height: auto;
     display: flex;
     justify-content: flex-start;
-    margin-right: 20px;
+    margin-right: 50px;
+    margin-top: 10px;
 }
 
 .acting-image-three img {
@@ -206,6 +209,8 @@ body {
     display: flex;
     justify-content: flex-start;
     margin-left: 3%;
+    margin-top: 50px;
+    margin-right: -50px;
 }
 
 .acting-attribution-three {
@@ -239,15 +244,17 @@ body {
     margin: 5%; 
     gap: 10%;
     font-size: x-large;
+    margin-top: 40px;
 }
 
 .acting-attribution-four {
     margin-left: 80px;
-    margin-top: -100px;
+    margin-top: -40px;
 }
 
 .acting-introduction-text {
     font-size: x-large;
     display: flex;
     justify-content: center; /* This is used to center my starting acting text*/
+    margin-top: 10px;
 }
