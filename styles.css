@@ -258,3 +258,11 @@ body {
     justify-content: center; /* This is used to center my starting acting text*/
     margin-top: 10px;
 }
+
+.home-attribution {
+    margin-left: 90px; 
+}
+
+.about-attribution {
+    margin-left: 1550px; /* This is used to move the about attribution to my right hand side of the page*/
+}
