@@ -1,4 +1,6 @@
 
+/* Header Image */
+
 img {
     width: 100%; /* This is used to adjust the width of the images*/
     height: 300px; /* This is used to adjust the height of my images*/
@@ -8,7 +10,7 @@ img {
 
 }
 
-
+/* Navigation Bar */
 
 .nav-bar {
     background-color: #0B1A33;
@@ -38,6 +40,7 @@ img {
 
 }
 
+/* Home Page*/
 
 .home-content {
     display: flex;
@@ -69,6 +72,12 @@ img {
     margin-top: 130px; /* This is used to move the home text lower*/
 }
 
+.home-attribution {
+    margin-left: 90px; 
+}
+
+/* Page Titles */
+
 .titles {
     position: absolute; /* This is used to be able to move the page titles anywhere*/
     top: 145px; /* This is used to center the titles on the header image so its not touching the top */
@@ -83,11 +92,14 @@ img {
     text-align: center;
 }
 
+/* Navigation Bar Website Logo */
 
 .logo {
     display: flex;
     align-items: start; /* This is used to move the logo on my left hand side of the navigation bar*/
 }
+
+/* Events Page */
 
 .events-image {
     display: flex;
@@ -122,9 +134,13 @@ img {
     font-size: medium;
 }
 
+/* Body */
+
 body {
     background-color: #f4f1e8;
 }
+
+/* About Page */
 
 .about img {
     width: 97%;
@@ -148,6 +164,12 @@ body {
     justify-content: flex-start;
     margin-left: 3%;
 }
+
+.about-attribution {
+    margin-left: 1550px; /* This is used to move the about attribution to my right hand side of the page*/
+}
+
+/* Acting Page */
 
 .acting-content-two {
     display: flex;
@@ -257,12 +279,4 @@ body {
     display: flex;
     justify-content: center; /* This is used to center my starting acting text*/
     margin-top: 10px;
-}
-
-.home-attribution {
-    margin-left: 90px; 
-}
-
-.about-attribution {
-    margin-left: 1550px; /* This is used to move the about attribution to my right hand side of the page*/
 }
