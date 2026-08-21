@@ -211,7 +211,7 @@ body {
     height: auto;
     display: flex;
     justify-content: flex-start;
-    margin-right: 50px;
+    margin-right: 80px;
     margin-top: 10px;
 }
 
@@ -236,7 +236,7 @@ body {
 }
 
 .acting-attribution-three {
-    margin-left: 1555px; /* This is used to move this image attribution to my right hand side of the page*/
+    margin-left: 1500px; /* This is used to move this image attribution to my right hand side of the page*/
 }
 
 
